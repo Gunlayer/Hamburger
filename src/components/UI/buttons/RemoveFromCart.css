@@ -1,0 +1,9 @@
+.fa-times-circle {
+    font-size: 26px;
+    color: teal;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.fa-times-circle:hover {
+    color: coral;    
+}

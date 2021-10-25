@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    border: 2px solid teal;
+    margin-bottom: 20px;
+  }
+  .card:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+  }
+  
+  .card-image {
+    width: 100%;
+  }
+  .burger-name {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: lightcoral;
+    font-size: 25px;
+  }
+  .price-box {
+    margin-top: 20px;
+  }
+  .burger-price {
+    margin-top: 15px;
+    font-size: 20px;
+    color: coral;
+  }
+  .card-button-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  

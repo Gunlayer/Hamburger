@@ -1,0 +1,74 @@
+header {
+    background-color: lightgrey;
+    
+  }
+  .fa-hamburger {
+    color: teal;
+    font-size: 62px;
+  }
+  .header-box {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .cart-btn {
+    padding: 10px;
+    border: 5px solid teal;
+    border-radius: 5px;
+    color: teal;
+    cursor: pointer;
+    transition: all 0.4s;
+    
+  }
+  .fa-shopping-cart {
+    font-size: 40px;
+  }
+  .cart-btn:hover {
+    background-color: teal;
+    color: lightgrey;
+  }
+  .cart-box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;    
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 110px;
+    display: none;
+    border-radius: 5px;
+    border: 3px solid teal;
+    flex-direction: column;
+  }
+   .counter {
+   display: none;
+   background-color: red;
+   border-radius: 50%;
+   width: 25px;
+   height: 25px; 
+   position: absolute;
+   right: 10px;
+   top: 55px;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   
+  }
+  .counter-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    font-weight: 600;
+  }
+  .show {
+    display: flex;
+  }
+  .disabled {
+    pointer-events: none;
+  }
